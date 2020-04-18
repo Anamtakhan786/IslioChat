@@ -1,0 +1,21 @@
+common: &common_settings
+  adapter: postgresql
+  encoding: unicode
+  min_messages: warning
+  pool: 5
+  username: postgres
+  password: postgres
+  host: localhost
+  port: 5432
+
+development:
+  <<: *common_settings
+  database: islio_chat_development
+
+test:
+  <<: *common_settings
+  database: islio_chat_test
+
+production:
+  <<: *common_settings
+  database: islio_chat_production
