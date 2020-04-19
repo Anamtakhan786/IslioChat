@@ -13,6 +13,7 @@ gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 gem 'serviceworker-rails'
+gem 'omniauth-auth0'
 gem 'bootstrap-sass'
 gem 'sassc-rails'
 gem 'jquery-rails'
