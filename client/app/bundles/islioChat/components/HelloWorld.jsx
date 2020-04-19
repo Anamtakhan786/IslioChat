@@ -4,7 +4,7 @@ import React from 'react';
 const HelloWorld = ({ name, updateName }) => (
   <div>
     <h3>
-      Hello, {name}!
+      Hello User, {name}!
     </h3>
     <hr />
     <form >
