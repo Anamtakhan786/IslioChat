@@ -1,8 +1,8 @@
 import ReactOnRails from 'react-on-rails';
 
-import HelloWorldApp from '../bundles/islioChat/startup/IslioChat';
+import IslioChat from '../bundles/islioChat/startup/IslioChat';
 
 // This is how react_on_rails can see the HelloWorld in the browser.
 ReactOnRails.register({
-  HelloWorldApp,
+  IslioChat,
 });

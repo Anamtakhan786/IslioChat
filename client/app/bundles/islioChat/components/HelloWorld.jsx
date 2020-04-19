@@ -26,4 +26,4 @@ HelloWorld.propTypes = {
   updateName: PropTypes.func.isRequired,
 };
 
-export default HelloWorld;
+export default HelloWorld
